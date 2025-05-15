@@ -1,0 +1,31 @@
+.bdr{
+    border: 1px red solid ;
+}
+
+.uk-height-small{
+    height: 100px;
+}
+
+
+/* Goal.css */
+.goal p{
+    font-size: 20px;
+}
+
+/* Mobile Intro */
+@media screen and (max-width: 639px) {
+    .mob-no-flex {
+        flex-direction: column;
+    }
+    .intro .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro img {
+        display: block;
+        margin: auto;
+        max-width: 50%;
+        height: auto;
+    }
+}

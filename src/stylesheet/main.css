@@ -1,0 +1,22 @@
+:root{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.c-primary{
+    color: #EA5504 !important;
+}
+
+.bg-primary{
+    background-color: #EA5504 !important;
+}
+
+.bg-accent{
+    background-color: #FEF6F2 !important;
+}
+
+.uk-card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px darkgrey;
+}

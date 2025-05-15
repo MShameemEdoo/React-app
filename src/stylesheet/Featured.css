@@ -1,0 +1,46 @@
+.prev{
+    transform: rotate(180deg);
+}
+
+.prev, .next{
+    height: 30px;
+    object-fit:contain;
+}
+
+.featured-arrow{
+    object-fit:contain;
+    transform: rotate(90deg);
+}
+
+.uk-slider-items>.uk-card.uk-slide-active {
+    box-shadow: -5px 5px  #EA5504, 0px 5px 10px darkgrey;
+}
+
+.uk-card .uk-car-title{
+    height: 70px !important;
+}
+
+.uk-card .uk-card-body>p {
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+
+
+.uk-dotnav>li.uk-active>a {
+    background-color: #EA5504;
+}
+
+.uk-dotnav>li{
+    display: block !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 639px) {
+    .prev, .next{
+        display: none;
+    }
+}

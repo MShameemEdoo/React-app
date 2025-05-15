@@ -1,0 +1,55 @@
+
+/* Logo */
+.uk-logo {
+    color: #EA5504;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.uk-logo .hub{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* Navbar Overall */
+.uk-navbar-container{
+    background-color: #FAF6F4 !important;
+}
+
+.uk-navbar{
+    height: 80px;
+}
+
+.uk-navbar-nav>li>a {
+    padding: 0 0;
+    color: #000000 !important;
+    text-transform: none;
+}
+
+
+/* Search Bar */
+.uk-search-input{
+    padding-left: 15px !important;
+    height: 32px !important;
+    width: 250px !important;
+    border-radius: 50px;
+}
+
+.uk-search-input::placeholder{
+    font-weight: 500 !important;
+}
+
+.uk-search>.uk-search-icon-flip{
+    padding-right: 0px !important;
+}
+
+
+/* User info */
+.user-name{
+    font-weight: 500;
+}

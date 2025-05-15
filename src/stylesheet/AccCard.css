@@ -1,0 +1,50 @@
+/* Resources */
+.title:hover{
+    color: #EA5504;
+}
+.rotate-arrow{
+    transform: rotate(90deg);
+}
+
+/* Acc-card */
+.acc-card{
+    border-radius: 5px;
+    border: 2px solid #EA5504;
+}
+
+ /* Accordion */
+ .uk-accordion-title::before{
+    display: none;
+ }
+
+ .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.icon img {
+    height: 20px;
+    object-fit:contain;
+}
+
+.acc-arrow {
+    transform: rotate(180deg);
+    object-fit:contain;
+    transition: transform 0.3s ease;
+}
+
+.uk-open .acc-arrow{
+    transform: rotate(-360deg);
+}
+
+/* Mobile */
+@media screen and (max-width: 639px) {
+    .acc-card{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
